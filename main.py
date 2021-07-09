@@ -12,9 +12,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 
-lg_model=pkl.load(open('C:/Users/sarat/DF 2009/portfolio/lg_review_1.pickle','rb'))
+lg_model=pkl.load(open('model.pickle file path','rb'))
 
-vectorizer=pkl.load(open('C:/Users/sarat/DF 2009/portfolio/tfidf_rev.pickle','rb'))
+vectorizer=pkl.load(open('tfidf_rev.pickle file path' ,'rb'))
 
 # vectorizer_2=TfidfVectorizer()
 
